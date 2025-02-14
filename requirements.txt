@@ -1,0 +1,11 @@
+selenium
+webdriver_manager
+pytest
+pyotp
+ddt
+deepdiff
+twilio
+pyjwt
+Image
+qrcode
+pytest-testconfig
