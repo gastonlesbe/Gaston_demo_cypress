@@ -2,7 +2,12 @@
 Gaston Demo Cypress
 
 ## Description
-This project contains automated tests for the main login functionality of a web application. The tests are written using Cypress.
+This project contains automated tests for the main login functionality of a web application. The tests are written using Cypress and follow the Page Object Model (POM) structure.
+
+## Project Structure
+- **locators**: Contains all element selectors for the application.
+- **pages**: Contains page classes encapsulating actions for each page.
+- **testcases**: Contains test cases that use the page classes.
 
 ## Test Cases
 The following test cases are included in this project:
