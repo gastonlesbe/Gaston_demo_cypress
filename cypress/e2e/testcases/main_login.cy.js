@@ -1,4 +1,4 @@
-import MainLoginPage from '../pages/main_login_page';
+import MainLoginPage from '../../pages/main_login_page';
 
 describe('Main Login Tests', () => {
   const loginPage = new MainLoginPage();
