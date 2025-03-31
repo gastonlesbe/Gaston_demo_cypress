@@ -1,7 +1,8 @@
 # Project Title
-Gaston Demo Pytest
+Gaston Demo Cypress
+
 ## Description
-This project contains automated tests for the main login functionality of a web application. The tests are written using Python and the pytest framework.
+This project contains automated tests for the main login functionality of a web application. The tests are written using Cypress.
 
 ## Test Cases
 The following test cases are included in this project:
@@ -9,6 +10,11 @@ The following test cases are included in this project:
 1. **test_login_successful_C01**: Verifies that a user can successfully log in with valid credentials.
 2. **test_login_wrong_password_C02**: Verifies that an error message is displayed when a user attempts to log in with an incorrect password.
 3. **test_login_wrong_username_C03**: Verifies that an error message is displayed when a user attempts to log in with an incorrect username.
+
+## How to Run Tests
+1. Install dependencies: `npm install`
+2. Open Cypress Test Runner: `npm run test`
+3. Run tests in headless mode: `npm run test:headless`
 
 ## CV - Gaston Lesbegueris
 
